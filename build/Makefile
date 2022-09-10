@@ -48,10 +48,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/dharmesh/sauvc_ws/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/dharmesh/sauvc_ws/build
+=======
+CMAKE_SOURCE_DIR = /home/bhaswanth/sauvc_ws/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/bhaswanth/sauvc_ws/build
+>>>>>>> 0a5085e8a3f255045f105a474033c586b83d25cd
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +144,15 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dharmesh/sauvc_ws/build/CMakeFiles /home/dharmesh/sauvc_ws/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dharmesh/sauvc_ws/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bhaswanth/sauvc_ws/build/CMakeFiles /home/bhaswanth/sauvc_ws/build/CMakeFiles/progress.marks
+	$(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bhaswanth/sauvc_ws/build/CMakeFiles 0
+>>>>>>> 0a5085e8a3f255045f105a474033c586b83d25cd
 .PHONY : all
 
 # The main clean target
@@ -284,6 +297,7 @@ gtest/fast:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
+<<<<<<< HEAD
 #=============================================================================
 # Target rules for targets named butter
 
@@ -1688,6 +1702,8 @@ plugin_depth/fast:
 	$(MAKE) -f uwv-simulator/uwv_description/src/plugin_depth_sensor/CMakeFiles/plugin_depth.dir/build.make uwv-simulator/uwv_description/src/plugin_depth_sensor/CMakeFiles/plugin_depth.dir/build
 .PHONY : plugin_depth/fast
 
+=======
+>>>>>>> 0a5085e8a3f255045f105a474033c586b83d25cd
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1710,6 +1726,7 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+<<<<<<< HEAD
 	@echo "... butter"
 	@echo "... freefloating_gazebo_fluid"
 	@echo "... pid_control"
@@ -1818,6 +1835,8 @@ help:
 	@echo "... _catkin_empty_exported_target"
 	@echo "... tf2_msgs_generate_messages_cpp"
 	@echo "... plugin_depth"
+=======
+>>>>>>> 0a5085e8a3f255045f105a474033c586b83d25cd
 .PHONY : help
 
 

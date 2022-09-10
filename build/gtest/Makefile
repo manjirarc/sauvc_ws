@@ -48,10 +48,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/dharmesh/sauvc_ws/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/dharmesh/sauvc_ws/build
+=======
+CMAKE_SOURCE_DIR = /home/bhaswanth/sauvc_ws/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/bhaswanth/sauvc_ws/build
+>>>>>>> 0a5085e8a3f255045f105a474033c586b83d25cd
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +144,24 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/dharmesh/sauvc_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dharmesh/sauvc_ws/build/CMakeFiles /home/dharmesh/sauvc_ws/build/gtest/CMakeFiles/progress.marks
 	cd /home/dharmesh/sauvc_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dharmesh/sauvc_ws/build/CMakeFiles 0
+=======
+	cd /home/bhaswanth/sauvc_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/bhaswanth/sauvc_ws/build/CMakeFiles /home/bhaswanth/sauvc_ws/build/gtest/CMakeFiles/progress.marks
+	cd /home/bhaswanth/sauvc_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bhaswanth/sauvc_ws/build/CMakeFiles 0
+>>>>>>> 0a5085e8a3f255045f105a474033c586b83d25cd
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/dharmesh/sauvc_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/clean
+=======
+	cd /home/bhaswanth/sauvc_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/clean
+>>>>>>> 0a5085e8a3f255045f105a474033c586b83d25cd
 .PHONY : clean
 
 # The main clean target
@@ -154,17 +171,29 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/dharmesh/sauvc_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
+=======
+	cd /home/bhaswanth/sauvc_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
+>>>>>>> 0a5085e8a3f255045f105a474033c586b83d25cd
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/dharmesh/sauvc_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
+=======
+	cd /home/bhaswanth/sauvc_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
+>>>>>>> 0a5085e8a3f255045f105a474033c586b83d25cd
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/dharmesh/sauvc_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/bhaswanth/sauvc_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> 0a5085e8a3f255045f105a474033c586b83d25cd
 .PHONY : depend
 
 # Help Target
@@ -191,6 +220,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/dharmesh/sauvc_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/bhaswanth/sauvc_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> 0a5085e8a3f255045f105a474033c586b83d25cd
 .PHONY : cmake_check_build_system
 
