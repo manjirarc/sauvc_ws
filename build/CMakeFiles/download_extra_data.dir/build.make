@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
+CMAKE_SOURCE_DIR = /home/dharmesh/sauvc_ws/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/dharmesh/sauvc_ws/build
+=======
 CMAKE_SOURCE_DIR = /home/bhaswanth/sauvc_ws/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/bhaswanth/sauvc_ws/build
+>>>>>>> 0a5085e8a3f255045f105a474033c586b83d25cd
 
 # Utility rule file for download_extra_data.
 
@@ -67,6 +74,10 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
+<<<<<<< HEAD
+	cd /home/dharmesh/sauvc_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dharmesh/sauvc_ws/src /home/dharmesh/sauvc_ws/src /home/dharmesh/sauvc_ws/build /home/dharmesh/sauvc_ws/build /home/dharmesh/sauvc_ws/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+=======
 	cd /home/bhaswanth/sauvc_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bhaswanth/sauvc_ws/src /home/bhaswanth/sauvc_ws/src /home/bhaswanth/sauvc_ws/build /home/bhaswanth/sauvc_ws/build /home/bhaswanth/sauvc_ws/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> 0a5085e8a3f255045f105a474033c586b83d25cd
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 

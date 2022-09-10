@@ -1,2 +1,7 @@
+<<<<<<< HEAD
+freefloating_gazebo:sauvc-simulations/auv_d:sauvc-simulations/auv_simulation:sauvc-simulations/v2_control:sauvc-simulations/v2_dataset:sauvc-simulations/v2_utility:sauvc-simulations/v2_visual:uwv-launcher:uwv-simulator/uwv_control:uwv-simulator/uwv_description:uwv-simulator/uwv_env
+-DCATKIN_DEVEL_PREFIX=/home/dharmesh/sauvc_ws/devel -DCMAKE_INSTALL_PREFIX=/home/dharmesh/sauvc_ws/install -G Unix Makefiles
+=======
 
 -DCATKIN_DEVEL_PREFIX=/home/bhaswanth/sauvc_ws/devel -DCMAKE_INSTALL_PREFIX=/home/bhaswanth/sauvc_ws/install -G Unix Makefiles
+>>>>>>> 0a5085e8a3f255045f105a474033c586b83d25cd

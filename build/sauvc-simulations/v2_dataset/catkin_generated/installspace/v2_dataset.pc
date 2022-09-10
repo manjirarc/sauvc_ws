@@ -1,0 +1,8 @@
+prefix=/home/dharmesh/sauvc_ws/install
+
+Name: v2_dataset
+Description: Description of v2_dataset
+Version: 0.1.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
