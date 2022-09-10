@@ -1,0 +1,8 @@
+prefix=/home/dharmesh/sauvc_ws/devel
+
+Name: auv_simulation
+Description: Description of auv_simulation
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

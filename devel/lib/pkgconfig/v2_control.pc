@@ -1,0 +1,8 @@
+prefix=/home/dharmesh/sauvc_ws/devel
+
+Name: v2_control
+Description: Description of v2_control
+Version: 1.1.1
+Cflags: -I/home/dharmesh/sauvc_ws/src/sauvc-simulations/v2_control/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs sensor_msgs geometry_msgs v2_visual cv_bridge darknet_ros_msgs
